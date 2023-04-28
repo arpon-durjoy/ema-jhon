@@ -3,6 +3,8 @@
 // import './App.css'
 import './App.css'
 import Header from './components/Header/Header'
+// import Product from './components/Product/Product'
+import Shop from './components/Shop/Shop'
 
 
 function App() {
@@ -11,6 +13,8 @@ function App() {
   return (
     <div className='App'>
       <Header></Header>
+      <Shop></Shop>
+      {/* <Product></Product> */}
     </div>
   )
 }
